@@ -23,29 +23,29 @@ export class AppComponent implements OnInit {
   getMonth(index:number){
     switch(index){
       case 0:
-        return "Jan"
+        return "Jan";
       case 4:
-        return "Feb"
+        return "Feb";
       case 8:
-        return "Mar"
+        return "Mar";
       case 12:
-        return "Apr"
+        return "Apr";
       case 16:
-        return "May"
+        return "May";
       case 20:
-        return "Jun"
+        return "Jun";
       case 24:
-        return "Jul"
+        return "Jul";
       case 28:
-        return "Aug"
+        return "Aug";
       case 32:
-        return "Sep"
+        return "Sep";
       case 36:
-        return "Oct"
+        return "Oct";
       case 40:
-        return "Nov"
+        return "Nov";
       case 44:
-        return "Dec"
+        return "Dec";
       default:
         return false
     }
