@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'git-commit-tracker';
-  public legendColorsGitCommit:string[] = ['#EBEDF0','#9BE9A8','#40C463','#309D4D','#216E39']
+  legendColorsGitCommit:string[] = ['#EBEDF0','#9BE9A8','#40C463','#309D4D','#216E39']
 
   ngOnInit(){
   }
