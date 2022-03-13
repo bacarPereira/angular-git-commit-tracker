@@ -1,0 +1,21 @@
+$less-commit-default: #DFE1E4;
+
+.square{
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+  background-color: $less-commit-default;
+  border-radius: 2px;
+}
+
+.info-legend-contributions{
+  float: right !important;
+  margin-right: 20px;
+
+  small{
+    font-size: small;
+    margin-right: 2px;
+    margin-left: 2px;
+    vertical-align: top;
+  }
+}
